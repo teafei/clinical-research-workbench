@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+.streamlit/secrets.toml
+private_data/
+local_exports/
+*.sqlite
+*.db
+*.dcm
+*.log
