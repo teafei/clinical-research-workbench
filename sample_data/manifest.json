@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "seed": 20261025,
+  "rows": {
+    "patients": 80,
+    "encounters": 101,
+    "labs": 403
+  },
+  "source_hashes": {
+    "patients": "e5b98c37eacaf0d9348ef4da70c6c9939b281af5c1bb227876f8008ffc83114d",
+    "encounters": "a2c4acf4cdb76daa7faaadd71cd145e545ac46e91bb7bf8080e5b67b682407d9",
+    "labs": "f193d3c3720a19a4e181567b24d275f9a9a72165c20c39ded32c738399f1d150"
+  }
+}
