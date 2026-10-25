@@ -4,4 +4,6 @@
 
 本地已对授权中文工作簿完成读取与适配检查，源文件读取前后SHA-256一致；不将临床语义、患者身份或最终纳入判定视为已验证。仓库内没有真实记录。
 
-复现：`python -m unittest discover -s tests -v`。本地界面已打开检查；Windows安装和GitHub Actions尚未实跑，无真实模型准确率或效率对照结果。
+复现：`python -m unittest discover -s tests -v`。本地界面已打开检查。GitHub Actions在Ubuntu与Python 3.12环境通过全部34项测试，见[运行记录](https://github.com/teafei/clinical-research-workbench/actions/runs/40170794036)，对应提交`3ec4358e1922a77acd7a0c9113924ee3cf69d199`。静态项目展示页已发布并打开核验。
+
+Windows安装尚未实跑，无真实模型准确率或效率对照结果。
