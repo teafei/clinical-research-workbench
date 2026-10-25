@@ -2,6 +2,8 @@
 
 **临床科研数据整理工具**
 
+[在线项目展示](https://teafei.github.io/clinical-research-workbench/) · [自动测试](https://github.com/teafei/clinical-research-workbench/actions/workflows/tests.yml)
+
 A tool for preparing retrospective clinical research data: quality checks, cohort filters, descriptive statistics and evidence-linked review. Built with Python, Pandas and Streamlit. Public examples are entirely synthetic.
 
 ![Synthetic data overview](screenshots/overview.jpg)
@@ -53,7 +55,7 @@ Windows PowerShell（无需修改执行策略）：
 
 在浏览器打开 `http://127.0.0.1:8501`。按 **总览 → 质控 → 队列与统计 → 病历结构化 → 导出** 操作；详见[演示步骤](docs/demo-guide.md)。
 
-公开演示部署前必须设置 `CRW_PUBLIC_DEMO=1`，该模式关闭文件上传、自定义病历与模型连接，仅开放合成材料。公开服务的访问控制、资源配额和运维仍由部署者负责。本仓库没有预先部署的在线服务。
+已发布的[项目展示页](https://teafei.github.io/clinical-research-workbench/)提供界面、功能与运行说明；完整Streamlit工具在本地运行。若另外部署交互演示，必须设置 `CRW_PUBLIC_DEMO=1`，该模式关闭文件上传、自定义病历与模型连接，仅开放合成材料。公开服务的访问控制、资源配额和运维仍由部署者负责。
 
 ## 合成数据与口径
 
